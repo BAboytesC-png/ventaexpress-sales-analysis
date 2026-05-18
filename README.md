@@ -228,13 +228,7 @@ ATS Score (documentación)       0%           100%        ✅ Completo
 proyecto-ventaexpress/
 ├── README.md (este archivo)
 ├── ventas-q4-2024.csv (datos limpios y procesados)
-├── ventas-preview.png (captura de datos para visualización)
-└── DOCUMENTACIÓN DETALLADA:
-    - Tipos de datos identificados
-    - Problemas encontrados y soluciones
-    - Metodología de limpieza
-    - Métricas calculadas
-    - Recomendaciones de negocio
+└── ventas-preview.pdf (captura de datos para visualización)
 ```
 
 ---
