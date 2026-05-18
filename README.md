@@ -470,7 +470,7 @@ Si esto fuera un proyecto real, los siguientes pasos serían:
 
 ## 📞 CONTACTO Y NOTAS
 
-- **Fecha de realización:** Mayo 2026
+- **Fecha de realización:** Febrero 2026
 - **Duración total:** ~3 horas
 - **Bootcamp:** TripleTen Data Analysis
 - **Nivel de dificultad:** Intermedio
