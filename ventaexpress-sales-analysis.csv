@@ -1,0 +1,10 @@
+Campo,Descripción de negocio,Tipo de dato esperado,Formato / Regla,Permite nulo (Sí/No),Ejemplo válido,Validación sugerida,Notas / Observaciones
+Fecha de venta,fecha en la que se registró la transacción (venta).,Fecha,"formato fecha real (no texto), ideal AAAA-MM-DD o el que uses, pero consistente.",No,1/10/24,n/a,"se usará para “Mes”, “Trimestre”, series de tiempo."
+Ciudad,"ciudad donde se concretó la venta (o donde está el cliente, según tu operación).",Texto,"estandarizar mayúsculas/minúsculas, sin espacios dobles (ej. “Ciudad de México” siempre igual).",No ,Ciudad de Mexico,lista de ciudades permitidas (si tienes catálogo).,
+Producto,nombre del producto vendido.,Texto,nombres consistentes (ej. “Smartwatch X” no variar con “smart watch x”).,No ,Tablet-Estándar-8GB,lista permitida si tienes catálogo.,
+Precio unitario,precio por 1 unidad del producto en la transacción.,Número (moneda),">= 0, con 2 decimales.",No ,1339.17,“Número” y “>=0”.,
+Cantidad,unidades vendidas en esa línea/transacción.,Número entero,"entero positivo, >=1 (normalmente).",No ,2,“Número entero” y “>=1”.,
+Monto total,total de la venta para esa fila (Precio unitario * Cantidad).,Número (moneda),debe coincidir con cálculo (tolerancia por redondeo).,No ,"2,678.34",comparación contra cálculo.,
+Cliente,nombre del cliente.,Texto,"limpieza de espacios, capitalización consistente.","Puede (depende), pero recomendado No.",Rebeca Salvador Gamez García,,
+Email,correo del cliente.,Texto (con patrón),debe parecer email válido (contener “@” y “.”).,Puede (depende).,qcovarrubias@hotmail.com,,
+ID de orden,identificador único de la orden/transacción.,"Texto (aunque sean números, se recomienda texto para no perder ceros).","único, no nulo.",No,53a9e98d-d57a-488e-bcec-701bc4e1ec3e,duplicados.,
