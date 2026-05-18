@@ -256,7 +256,7 @@ proyecto-ventaexpress/
 
 ## 📈 VISUALIZACIONES INCLUIDAS
 
-### PNG: `ventas-preview.png`
+### PNG: `ventas-preview.pdf`
 Este archivo muestra:
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -275,7 +275,7 @@ Este archivo muestra:
 └─────────────────────────────────────────────────────┘
 ```
 
-**Qué PNG mostrar:**
+**Qué PDF mostrar:**
 1. Captura del archivo CSV con encabezados + primeras 10 filas
 2. O captura de Gráfico de Barras (Ventas por ciudad)
 3. O captura de Gráfico de Líneas (Evolución mensual)
